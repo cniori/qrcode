@@ -63,7 +63,7 @@ if($row = $results->fetchArray()){
   echo "<tr><td class=a>检测类型:</td><td>".$row['test_type']."</td></tr>";
   echo "<tr><td class=a>检测日期:</td><td>".date("Y年m月d日", strtotime($row['test_date']))."</td></tr>";
   echo "<tr><td class=a>下次检测日期:</td><td>".date("Y年m月d日", strtotime($row['next_checkDate']))."前</td></tr>";
-  echo "<tr><td class=a>检测单位:</td><td>南京绝缘体防雷检测有限公司</td></tr>";
+  echo "<tr><td class=a>检测单位:</td><td>XXXX防雷检测有限公司</td></tr>";
   echo "<tr><td class=a>检测结论:</td><td>经检测，被检建（构）筑物本次所检项目符合检测依据的要求。</td></tr>";
   echo "</table>";
   echo "<div class=circle>查询通过</div> ";
